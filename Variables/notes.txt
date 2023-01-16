@@ -1,0 +1,21 @@
+* Using the dollar sign is not very common in JavaScript,
+but professional programmers often use it as an alias for the main function in a JavaScript library.
+
+* Using the underscore is not very common in JavaScript, 
+but a convention among professional programmers is to use it as an alias for "private (hidden)" variables.
+
+@ Key take ways :
+1. Variables are like container(e.g. box) and they store values or data.
+
+2. Var-> Value could change | re-declarable | can use the variable before it is declared | Global Scope | can be Reassigned | Must not be Assigned when declared
+   Let-> Value could change | not re-declarable in same scope | must be Declared before use |  Block Scope | can be Reassigned | Must not be Assigned when declared
+   Const-> Value could not change | not re-declarable in same scope | Block Scope | can't be | Must be Assigned when declared
+
+3. Each variable has an unique name called "Identifier"
+
+* It's a good programming practice to declare all variables at the beginning of a script.
+
+4. A variable declared without a value will have the value undefined.
+
+* Initialization: When you declare a variable it is automatically initialized, which means memory is allocated for the variable by the JavaScript engine. 
+Assignment: This is when a specific value is assigned to the variable.
